@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'crudOperation' do
-  # Pods for crudOperation
+target 'AwesomeProject' do
+  # Pods for AwesomeProject
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'crudOperation' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'crudOperationTests' do
+  target 'AwesomeProjectTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'crudOperation' do
   use_native_modules!
 end
 
-target 'crudOperation-tvOS' do
-  # Pods for crudOperation-tvOS
+target 'AwesomeProject-tvOS' do
+  # Pods for AwesomeProject-tvOS
 
-  target 'crudOperation-tvOSTests' do
+  target 'AwesomeProject-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
