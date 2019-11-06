@@ -12,7 +12,7 @@ import Navigator from './app/config/routes';
 class App extends React.Component{
   render(){
     return(
-      <Navigator onNavigationStateChange={null}/>
+      <Navigator />
     );
   } 
 }
