@@ -66,7 +66,7 @@ const AppNavigator = createStackNavigator({
             // You can check the implementation below.
             IconComponent = HomeIconWithBadge;
           } else if (routeName === 'About') {
-            iconName = `ios-options`;
+            iconName = `ios-person`;
           }
   
           // You can return any component that you like here!
